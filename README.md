@@ -1,31 +1,32 @@
-# Анализ игровых привычек 🎮
+# Gaming Habits Analysis 🎮
 
-**Автор:** S1zzy  
-**Дата:** 2026  
-**Инструменты:** MySQL, Workbench
+**Author:** S1zzy  
+**Date:** 2026  
+**Tools:** MySQL, Workbench
 
-## 📌 О проекте
-Анализ своей библиотеки игр: сколько времени я играю, какие жанры предпочитаю, в какие дни играю больше всего.
+## 📌 About the Project
+An analysis of my game library: how much time I spend gaming, which genres I prefer, and on which days I play the most.
 
-## 📊 Структура данных
-- **games** — список игр (название, жанр, год выпуска)
-- **playtime** — игровые сессии (дата, количество часов)
+## 📊 Data Structure
+- **games** — list of games (title, genre, release year)
+- **playtime** — gaming sessions (date, number of hours)
 
-## 🔍 Ключевые запросы
-1. **Топ-1 игра по времени** — Cyberpunk 2077 (5.5 часов)
-2. **Топ-1 жанр** — RPG (10.5 часов)
-3. **Самый продуктивный день** — 18 января 2026 (5 часов)
-4. **Самая долгая сессия** — Counter-Strike 2 (5 часов за раз)
+## 🔍 Key Queries
+1. **Top game by playtime** — Cyberpunk 2077 (5.5 hours)
+2. **Top genre** — RPG (10.5 hours)
+3. **Most active day** — January 18, 2026 (5 hours)
+4. **Longest session** — Counter-Strike 2 (5 hours in one sitting)
 
-## 📈 Выводы
-Я — RPG-аналитик с пиковой нагрузкой до 5 часов в день. 
-Люблю долгие сессии в шутерах и короткие заходы в ведьмака.
+##📈 Conclusions
 
-## 📁 Файлы
-- `game_analytics_portfolio.sql` — все SQL-запросы
-- `game_analytics_portfolio_BD.sql` — BD к этим запросам
+I am an RPG analyst with a peak workload of up to 5 hours a day. I enjoy long sessions in shooters and short bursts of *The Witcher*.
+📁 Files
 
-## 🚀 Как запустить
-1. Установить MySQL
-2. Выполнить скрипт `game_analytics_portfolio.sql`
-3. Запускать запросы из файла
+    game_analytics_portfolio.sql — all SQL queries
+    game_analytics_portfolio_BD.sql — the database for these queries
+
+🚀 How to run
+
+    Install MySQL
+    Execute the `game_analytics_portfolio.sql` script
+    Run the queries from the file
